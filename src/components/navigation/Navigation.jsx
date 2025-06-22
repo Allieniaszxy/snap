@@ -1,6 +1,6 @@
-import "./Header.css";
+import "./Navigation.css";
 
-function Header() {
+export default function Navigation() {
   return (
     <div>
       <section className="header-section">
@@ -23,4 +23,3 @@ function Header() {
     </div>
   );
 }
-export default Header;
