@@ -5,7 +5,7 @@ export default function Navigation() {
     <div>
       <section className="header-section">
         <div className="navbar">
-          <div className="snap-logo">
+          <div className="logo">
             <h1>Snap</h1>
           </div>
           <div className="nav1">
