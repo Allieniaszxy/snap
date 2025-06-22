@@ -1,0 +1,43 @@
+.footer-img {
+  img {
+    height: 100px;
+    margin: 0px 215px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .footer-img {
+    img {
+      height: 60px;
+    }
+  }
+}
+
+@media (max-width: 1072px) {
+  .footer-img {
+    img {
+      margin: 0px 40px;
+    }
+  }
+}
+
+@media (max-width: 972px) {
+  .footer-img {
+    img {
+      position: relative;
+      left: 180px;
+      height: 50px;
+    }
+  }
+}
+
+@media (max-width: 762px) {
+  .footer-img {
+    img {
+      position: relative;
+      left: 140px;
+      height: 50px;
+    }
+  }
+}

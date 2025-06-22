@@ -1,0 +1,99 @@
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 60px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+  .nav1 {
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+    color: rgb(110, 110, 110);
+  }
+
+  .snap-logo {
+    font-size: 27px;
+  }
+}
+
+.nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  cursor: pointer;
+  color: rgb(110, 110, 110);
+
+  button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: 1.5px solid rgb(110, 110, 110);
+    border-radius: 15px;
+    width: max-content;
+  }
+
+  button:hover {
+    background-color: #1f1f1f;
+    color: white;
+  }
+}
+
+@media (max-width: 1060px) {
+  .navbar {
+    .snap-logo {
+      font-size: 18px;
+    }
+
+    .nav1 {
+      font-size: 14px;
+    }
+  }
+
+  .nav-btn {
+    font-size: 14px;
+    button {
+      padding: 5px 10px;
+      font-size: 14px;
+      border-radius: 10px;
+      font-size: 12px;
+      width: max-content;
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .navbar {
+    .snap-logo {
+      font-size: 12px;
+    }
+
+    .nav1 {
+      font-size: 12px;
+    }
+  }
+
+  .nav-btn {
+    font-size: 12px;
+    button {
+      padding: 5px 10px;
+      font-size: 12px;
+      border-radius: 10px;
+      font-size: 10px;
+      width: max-content;
+    }
+  }
+}
+
+@media (max-width: 760px) {
+  .navbar {
+    .nav1 {
+      display: none;
+    }
+  }
+}
